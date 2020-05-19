@@ -1,0 +1,58 @@
+- learn to develop a social network system
+
+   improve skills
+   
+   > software development process
+     - test-driven development	
+   > web application
+     - functional requirements (what functions does this web application have?)
+       + how user interact with the web application (use case analysis)
+
+       + does it really function? (quality assurance -> testing)
+     - non-functional requirements
+       + does your web application support concurrently 1,000,000 users? 
+       + do you environment that people can access it via the browsers on their phones? (architecture)
+         - mobile phones usually have intermittent internet connectivity
+       + how do you protect users' data? 
+         - security (can the system control who can see the data?)
+         - privacy (can I control who can see my data?)
+   > how do I start? 
+      + select an IDE, a programming language, platform, an architecture (very rudimentary sense)
+	Microsoft .Net Framework (.Net Framework on UNIX systems, Mono https://www.mono-project.com/)
+	IDE: visual studio (Visual Studio Code)
+	language: C#, ASP.Net / JavaScript (server-side node.js)
+	database: relational database / document-based database (MongoDB) - mysql? mongodb? sqlite? postgresql?
+	architecture: 2-tier / 3-tier web application
+		client - business logc/database layer
+		client - business logic - database layer
+
+	google: create web api (restful api) using  .net
+
+     + web application
+	traditional (30 years old) - document driven (POST/GET methods, html page)
+
+		client: web browser  --- <HTML document> -- business logic -- database layer
+		(human user)
+
+	modern - RESTful API/Web API
+		client: web browser (not chrome/firefox/safari)
+		     ----<XML document>/<JSON document> 
+				--- business  logic --<XML document>/<JSON document>-- database layer
+					RESFful APIs
+
+		Framework
+
+		Example: user can log in via user name and password
+
+		/authenticate?username=foo&password=secret
+
+
+	huichen-cs
+
+
+
+		
+
+
+	
+
